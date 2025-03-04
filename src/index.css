@@ -1,0 +1,16 @@
+:root {
+  font-family: sans-serif, Arial, system-ui;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid #000000;
+  padding: 0.4em 0.6em;
+  margin-right: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
