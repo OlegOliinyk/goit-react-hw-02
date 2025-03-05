@@ -25,21 +25,19 @@ function App() {
           good: reviews.good + 1,
         });
         break;
-
       case "neutral":
         setReviews({
           ...reviews,
           neutral: reviews.neutral + 1,
         });
         break;
-
       case "bad":
         setReviews({
           ...reviews,
           bad: reviews.bad + 1,
         });
         break;
-      default:
+      case "reset":
         setReviews({
           good: 0,
           neutral: 0,
